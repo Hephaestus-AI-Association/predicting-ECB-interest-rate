@@ -7,7 +7,7 @@ from sklearn.svm import SVR
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
 # Step 1: Load the Data
-data = pd.read_csv("output_file.csv")
+data = pd.read_csv("data.csv")
 
 # Step 2: Prepare Data
 X = data[['Inflation','BCI','LT','ST']] # Features
